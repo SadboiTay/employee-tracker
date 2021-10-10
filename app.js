@@ -61,7 +61,7 @@ const initialize = () => {
                 prompt.addRole();
                 break;
             case 'Add an employee':
-                prompt.addEmployee();
+                prompt.addEmployee(initialize);
                 break;
             case 'Update an employee role':
                 prompt.updateEmployeeRole();
@@ -70,9 +70,6 @@ const initialize = () => {
                 console.log('Bye!');
                 process.exit();
         }
-    })
-    .then(() => {
-        initialize();
     })
 }
 
