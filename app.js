@@ -24,6 +24,7 @@ const initialize = () => {
                 'Add an employee',
                 'Update an employee role',
                 "Update an employee's manager",
+                "Delete records",
                 'Exit'
             ]
         }
@@ -68,6 +69,9 @@ const initialize = () => {
                 break;
             case "Update an employee's manager":
                 prompt.updateEmployeeManager(initialize);
+                break;
+            case "Delete records":
+                prompt.deleteRecords(initialize);
                 break;
             case 'Exit':
                 console.log('Bye!');
