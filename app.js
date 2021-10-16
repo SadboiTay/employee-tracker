@@ -19,6 +19,7 @@ const initialize = () => {
                 'View all employees',
                 'View employees by manager',
                 'View employees by department',
+                "View total utilized budget of a department",
                 'Add a department',
                 'Add a role',
                 'Add an employee',
@@ -54,6 +55,9 @@ const initialize = () => {
                 break;
             case 'View employees by department':
                 prompt.viewEmployeesByDepartment(initialize);
+                break;
+            case "View total utilized budget of a department":
+                prompt.viewBudget(initialize);
                 break;
             case 'Add a department':
                 prompt.addDepartment(initialize);
