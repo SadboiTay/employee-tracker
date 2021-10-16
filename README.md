@@ -21,10 +21,7 @@
 
   # Usage
   After initiating the app, simply choose a selection and follow the prompts in order to view and edit the desired database information.
-
-  # Contributing
-  none
-
+  
   # Tests
   No tests have been written for this app.
   
